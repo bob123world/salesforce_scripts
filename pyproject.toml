@@ -1,0 +1,20 @@
+[project]
+name = "salesforce-scripts"
+version = "0.1.0"
+description = "Some usefull scripts to do things with Salesforce"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.3.0",
+    "requests>=2.32.4",
+    "rich>=14.0.0",
+    "simple-salesforce>=1.12.6",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "ipykernel>=6.29.5",
+    "isort>=6.0.1",
+    "pytest>=8.4.0",
+]
