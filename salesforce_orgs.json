@@ -1,0 +1,130 @@
+{
+    "orgs": [
+        {
+			"id":0,
+            "name": "AG DIGIPOLIS",
+            "description": "Main org for the COE at Digipolis",
+            "environments": [
+                {
+                    "name": "PRD",
+                    "description": "Production environment",
+                    "instance_url": "https://agdigipolis.my.salesforce.com/",
+                    "authentication": "session",
+                    "variables": {
+                        "session_id": "AGDIGIPOLIS_PRD_SESSION_ID",
+                        "username": "AGDIGIPOLIS_PRD_USERNAME",
+                        "password": "AGDIGIPOLIS_PRD_PASSWORD",
+                        "security_token": "AGDIGIPOLIS_PRD_SECURITY_TOKEN",
+                        "consumer_key": "AGDIGIPOLIS_PRD_CONSUMER_KEY",
+                        "consumer_secret": "AGDIGIPOLIS_PRD_CONSUMER_SECRET",
+                        "token_url": "AGDIGIPOLIS_PRD_TOKEN_URL",
+                        "private_key_path": "AGDIGIPOLIS_PRD_PRIVATE_KEY_PATH"
+                    }
+                },
+                {
+                    "name": "UAT",
+                    "description": "UAT environment",
+                    "instance_url": "https://agdigipolis--uat.sandbox.my.salesforce.com/",
+                    "authentication": "session",
+                    "variables": {
+                        "session_id": "AGDIGIPOLIS_UAT_SESSION_ID",
+                        "username": "AGDIGIPOLIS_UAT_USERNAME",
+                        "password": "AGDIGIPOLIS_UAT_PASSWORD",
+                        "security_token": "AGDIGIPOLIS_UAT_SECURITY_TOKEN",
+                        "consumer_key": "AGDIGIPOLIS_UAT_CONSUMER_KEY",
+                        "consumer_secret": "AGDIGIPOLIS_UAT_CONSUMER_SECRET",
+                        "token_url": "AGDIGIPOLIS_UAT_TOKEN_URL",
+                        "private_key_path": "AGDIGIPOLIS_UAT_PRIVATE_KEY_PATH"
+                    }
+                },
+                {
+                    "name": "DEV",
+                    "description": "DEV environment",
+                    "instance_url": "https://agdigipolis--dev.sandbox.my.salesforce.com/",
+                    "authentication": "session",
+                    "variables": {
+                        "session_id": "AGDIGIPOLIS_DEV_SESSION_ID",
+                        "username": "AGDIGIPOLIS_DEV_USERNAME",
+                        "password": "AGDIGIPOLIS_DEV_PASSWORD",
+                        "security_token": "AGDIGIPOLIS_DEV_SECURITY_TOKEN",
+                        "consumer_key": "AGDIGIPOLIS_DEV_CONSUMER_KEY",
+                        "consumer_secret": "AGDIGIPOLIS_DEV_CONSUMER_SECRET",
+                        "token_url": "AGDIGIPOLIS_DEV_TOKEN_URL",
+                        "private_key_path": "AGDIGIPOLIS_DEV_PRIVATE_KEY_PATH"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Sociaal Kompas",
+            "description": "Antwerpen3 Sociaal Kompas",
+            "environments": [
+                {
+                    "name": "PRD",
+                    "description": "Production environment",
+                    "instance_url": "https://antwerpen3.my.salesforce.com/",
+                    "authentication": "session",
+                    "variables": {
+                        "session_id": "AR_PRD_SESSION_ID",
+                        "username": "AR_PRD_USERNAME",
+                        "password": "AR_PRD_PASSWORD",
+                        "security_token": "AR_PRD_SECURITY_TOKEN",
+                        "consumer_key": "AR_PRD_CONSUMER_KEY",
+                        "consumer_secret": "AR_PRD_CONSUMER_SECRET",
+                        "token_url": "AR_PRD_TOKEN_URL",
+                        "private_key_path": "AR_PRD_PRIVATE_KEY_PATH"
+                    }
+                },
+                {
+                    "name": "QA",
+                    "description": "QA environment",
+                    "instance_url": "https://antwerpen3--qa.sandbox.my.salesforce.com/",
+                    "authentication": "session",
+                    "variables": {
+                        "session_id": "AR_QA_SESSION_ID",
+                        "username": "AR_QA_USERNAME",
+                        "password": "AR_QA_PASSWORD",
+                        "security_token": "AR_QA_SECURITY_TOKEN",
+                        "consumer_key": "AR_QA_CONSUMER_KEY",
+                        "consumer_secret": "AR_QA_CONSUMER_SECRET",
+                        "token_url": "AR_QA_TOKEN_URL",
+                        "private_key_path": "AR_QA_PRIVATE_KEY_PATH"
+                    }
+                },
+                {
+                    "name": "UAT",
+                    "description": "UAT environment",
+                    "instance_url": "https://antwerpen3--uat.sandbox.my.salesforce.com/",
+                    "authentication": "session",
+                    "variables": {
+                        "session_id": "AR_UAT_SESSION_ID",
+                        "username": "AR_UAT_USERNAME",
+                        "password": "AR_UAT_PASSWORD",
+                        "security_token": "AR_UAT_SECURITY_TOKEN",
+                        "consumer_key": "AR_UAT_CONSUMER_KEY",
+                        "consumer_secret": "AR_UAT_CONSUMER_SECRET",
+                        "token_url": "AR_UAT_TOKEN_URL",
+                        "private_key_path": "AR_UAT_PRIVATE_KEY_PATH"
+                    }
+                },
+				{
+                    "name": "DEVMICHQA",
+                    "description": "Development QA voor MD environment",
+                    "instance_url": "https://antwerpen3--devmichqa.sandbox.my.salesforce.com/",
+                    "authentication": "session",
+                    "variables": {
+                        "session_id": "AR_DEVMICHQA_SESSION_ID",
+                        "username": "AR_DEVMICHQA_USERNAME",
+                        "password": "AR_DEVMICHQA_PASSWORD",
+                        "security_token": "AR_DEVMICHQA_SECURITY_TOKEN",
+                        "consumer_key": "AR_DEVMICHQA_CONSUMER_KEY",
+                        "consumer_secret": "AR_DEVMICHQA_CONSUMER_SECRET",
+                        "token_url": "AR_DEVMICHQA_TOKEN_URL",
+                        "private_key_path": "AR_DEVMICHQA_PRIVATE_KEY_PATH"
+                    }
+                }
+            ]
+        }
+    ]
+}
