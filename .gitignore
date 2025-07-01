@@ -195,3 +195,6 @@ cython_debug/
 
 # salesforce_orgs.json
 salesforce_orgs.json
+
+# data folder
+data/
